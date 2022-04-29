@@ -52,10 +52,6 @@ function multiplicar(multiplicando: number, multiplicador: number) {
   return multiplicando * multiplicador;
 }
 
-function borrar() {
-  return 0;
-}
-
 //RESTO DEL CODIGO
 btnGuardarValor1.addEventListener("click", () => {
   valorPrimerNumero = Number(primerNumero.value);
@@ -135,6 +131,8 @@ btnBorrar.addEventListener("click", () => {
   alert("los valores han sido borrados");
   valorPrimerNumero = 0;
   valorSegundoNumero = 0;
+  primerNumero.value = "0";
+  segundoNumero.value = "0";
 });
 
 //pruebas de escritorio
