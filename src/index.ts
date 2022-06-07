@@ -133,6 +133,7 @@ btnBorrar.addEventListener("click", () => {
   valorSegundoNumero = 0;
   primerNumero.value = "0";
   segundoNumero.value = "0";
+  divResultado.innerHTML = "";
 });
 
 //pruebas de escritorio

@@ -1,3 +1,42 @@
 body {
   font-family: sans-serif;
 }
+
+.contenedor {
+  background-color: dimgray;
+  text-align: center;
+  width: 70%;
+  height: 55%;
+  margin: auto;
+  padding-top: 1%;
+  border: solid thick rgb(77, 74, 74);
+  border-radius: 5vw;
+}
+
+.botones,
+.botonIngresar {
+  border-radius: 5vw;
+  padding: 1vw;
+}
+
+.botones {
+  background-color: lightblue;
+}
+
+.botonIngresar:hover,
+.botones:hover {
+  background-color: rgb(109, 175, 216);
+}
+
+.botones:active {
+  background-color: rgb(77, 144, 185);
+  font-size: 18px;
+}
+
+.botonIngresar {
+  background-color: skyblue;
+}
+
+.resultado {
+  color: white;
+}
